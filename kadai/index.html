@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>文具のアオキ</title>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- ナビゲーション ここから -->
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-header">
+      <!-- ブランド名 / ロゴ -->
+      <a class="navbar-brand" href="#top">文具のアオキ</a>
+      <!-- レスポンシブ対応トグルボタン -->
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-content">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <!-- 画面幅が狭くなったらトグルボタンに入る項目 -->
+    <div id="nav-content" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="#stationery">こだわりの文房具</a></li>
+        <li><a href="#about">会社案内</a></li>
+        <li><a href="#contact">お問い合わせ</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- ナビゲーション ここまで -->
+
+  <!-- ヘッダー ここから -->
+  <header id="top" class="jumbotron">
+    <div class="container text-right">
+      <h1>文具のアオキ</h1>
+      <p>こだわりの文房具を紹介しています</p>
+      <p><a href="#stationery" class="btn btn-lg midashi-btn" role="button">もっと詳しく &raquo;</a></p>
+    </div>
+  </header>
+  <!-- ヘッダー ここまで -->
+
+  <!-- こだわりの文房具 ここから -->
+  <section id="stationery" class="container">
+    <div class="text-center">
+      <h2>こだわりの文房具</h2>
+      <hr class="small">
+    </div>
+    <div class="row">
+      <div class="col-md-4 text-center"><img src="img/diary_m.jpg" class="img-responsive img-thumbnail" alt="システム手帳"></div>
+      <div class="col-md-8">
+        <h3>システム手帳</h3>
+        <p>
+          選び抜かれた高品質な革を職人が丹念に仕上げた、丈夫で機能的なシステム手帳です。<br>
+          バイブルサイズは、どなたにもお使いいただけるスタンダードな大きさ。<br>
+          美しさと耐久性を兼ね備えた本品は、長く使える最高のパートナーとなるでしょう。<br>
+          <br>
+          サイズ：164mm×232mm×22mm<br>
+          重量：502g
+        </p>
+      </div>
+    </div>
+      <hr class="small">
+    <div class="row">
+      <div class="col-md-4 text-center"><img src="img/globe_m.jpg" class="img-responsive img-thumbnail" alt="地球儀"></div>
+      <div class="col-md-8">
+        <h3>地球儀</h3>
+        <p>
+          地球儀というと、何の変哲もない商品のように思われがちですが、新しい作成法、新しいデザインを得て、非常に興味深い、おしゃれでインテリア性の高い商品になりました。<br>
+          <br>
+          サイズ：30.5cm/4200万分の1<br>
+          重量：1.4kg
+        </p>
+      </div>
+    </div>
+    <div class="text-center">
+      <hr class="small">
+      <p><span class="glyphicon glyphicon-shopping-cart"></span>いずれの商品につきましても、FAXにて午前中までにご注文頂ければ、当日中に<strong>送料無料</strong>で配送いたします。</p>
+    </div>
+  </section>
+  <!-- こだわりの文房具 ここまで -->
+
+  <!-- 会社案内 ここから -->
+  <section id="about" class="container">
+    <div class="text-center">
+      <h2>会社案内</h2>
+      <hr class="small">
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <table class="table table-striped">
+          <tr><th class="text-right">社名</th><td>文具のアオキ</td></tr>
+          <tr><th class="text-right">住所</th><td>〒123-xxxx<br>東京都江戸川区小峰4-x-x</td></tr>
+          <tr><th class="text-right">電話番号</th><td>TEL：03-3633-xxxx<br>FAX：03-3635-xxxx</td></tr>
+          <tr><th class="text-right">取り扱い品目</th><td>一般事務用品、製図用品</td></tr>
+        </table>
+      </div>
+      <div class="col-md-8">
+        <img src="img/map.gif" class="img-responsive img-thumbnail" alt="アクセスマップ">
+      </div>
+    </div>
+  </section>
+  <!-- 会社案内 ここまで -->
+
+  <!-- お問い合わせ ここから -->
+  <section id="contact" class="container">
+    <div class="text-center">
+      <h2>お問い合わせ</h2>
+      <hr class="small">
+      <p>商品に関するご質問や、ご意見、ご希望など、なんでもお気軽にご連絡下さい。</p>
+    </div>
+    <div>
+      <form class="form-horizontal">
+        <div class="form-group">
+          <label for="name" class="control-label col-md-4"><span class="required">（必須）</span>お名前</label>
+          <div class="col-md-6">
+            <input type="text" id="name" class="form-control" placeholder="お名前をご入力ください。" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="mail" class="control-label col-md-4"><span class="required">（必須）</span>メールアドレス</label>
+          <div class="col-md-6">
+            <input type="email" id="mail" class="form-control" placeholder="exam@example.co.jp" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="select" class="control-label col-md-4">お問い合わせ</label>
+          <div class="col-md-6">
+            <label class="radio-inline"><input type="radio" name="select" value="1">商品構成・内容</label>
+            <label class="radio-inline"><input type="radio" name="select" value="2">無料配送サービス</label>
+            <label class="radio-inline"><input type="radio" name="select" value="3">その他</label>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="contact_text" class="control-label col-md-4"><span class="required">（必須）</span>ご質問・ご意見・ご希望</label>
+          <div class="col-md-6">
+            <textarea id="contact_text" class="form-control" placeholder="ご質問・ご意見・ご希望など、自由にご入力ください。" required></textarea>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="kakunin" class="control-label col-md-4">入力内容確認</label>
+          <div class="col-md-6">
+            <label class="checkbox-inline">
+              <input type="checkbox" name="kakunin">送信する前に確認画面を表示する。
+            </label>
+          </div>
+        </div>
+        <div class="text-center">
+          <button class="btn btn-success btn-lg">送信</button>
+          <button class="btn btn-warning btn-lg">リセット</button>
+        </div>
+      </form>
+    </div>
+  </section>
+  <!-- お問い合わせ ここまで -->
+
+  <!-- フッター ここから -->
+  <footer class="container-fluid">
+    <small>Copyright &copy;文具のアオキ All rights reserved.</small>
+  </footer>
+  <!-- フッター ここまで -->
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
